@@ -1,165 +1,121 @@
-
- *{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
+
+
 nav{
-    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+
+    padding: 15px 30px;
+    background-color: white;
+    z-index: 1;
 }
+
 nav div{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-li{
-    list-style: none;
-}
+
 a{
     text-decoration: none;
     color: #575757;
+    font-weight: 500;
 }
+
 .nav-button{
     background-color: #E8BA2E;
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
-    color:#000102;
+    color: #000102;
     cursor: pointer;
     font-weight: 600;
 }
+
 .nav-button span{
     margin-left: 8px;
-    font-weight: 600;
 }
+
+
 header{
-    background-image: url(./images/Background.png);
-    margin: 10px 0;
+    background-image: url("./images/Background.png");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     height: 800px;
-    background-size: cover;
     border-radius: 10px;
-    align-items: center;
+
     display: flex;
+    align-items: center;
+
+    margin: 80px 10px 10px;
 }
+
 header div{
-    padding-left: 30px;
+    padding-left: 40px;
     color: white;
 }
-header div h1{
+
+header h1{
+    font-size: 56px;
     font-weight: 700;
-    font-size: 50px;
+    margin-bottom: 20px;
 }
-nav{
-    background-color: white;
+
+header p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+main{
     display: flex;
     justify-content: space-between;
-}
-nav div{
-    display: flex;
+    background-color: #F4C430;
+    text-align: center;
+    max-width: 98%;
+    margin:0 auto;
+    height: 200px;
     align-items: center;
+    padding: 15px 50px;
+}
+.stadium{
+    display: flex;
+    margin: 0 100px 40px;
     gap: 50px;
 }
-li{
-    list-style: none;
+.stadium-text{
+    text-align: center;
+    margin: 50px 0;
+    gap: 50px;
+}           
+.stadium img{
+    flex: 1;
 }
-a{
-    text-decoration: none;
-    color: #575757;
+.features{
+padding: 15px 15px;
+color: #575757;
 }
-.nav-button{
-    background-color: #E8BA2E;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    color:#000102;
-    cursor: pointer;
-    font-weight: 600;
-}
-.nav-button span{
-    margin-left: 8px;
-    font-weight: 600;
-}
-header{
-    background-image: url(./images/Background.png);
-
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 800px;
-    background-size: cover;
-    border-radius: 10px;
-    align-items: center;
+.venue{
     display: flex;
+    gap: 20px;
 }
-header div{
-    padding-left: 30px;
-    color: white;
-}
-header div h1{
-    font-weight: 700;
-    font-size: 50px;
-}
+.button-s{
+    display: flex;
     
-nav{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-nav div{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #575757;
-}
-.nav-button{
-    background-color: #E8BA2E;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    color:#000102;
-    cursor: pointer;
-    font-weight: 600;
-}
-.nav-button span{
-    margin-left: 8px;
-    font-weight: 600;
-}
-header{
-    background-image: url(./images/Background.png);
-
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 800px;
-    background-size: cover;
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-}
-header div{
-    padding-left: 30px;
-    color: white;
-    margin-top: 90px;
-}
-header div h1{
-    font-weight: 700;
-    font-size: 50px;
-}
-header div p{
-    font-weight: 400px;
-}
-
-
-
-    
