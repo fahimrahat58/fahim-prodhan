@@ -1,192 +1,191 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Host Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding: 15px 30px;
-    background-color: white;
-    z-index: 1;
-}
-
-nav div{
-    display: flex;
-    align-items: center;
-    gap: 50px;
+  padding: 15px 30px;
+  background-color: white;
+  z-index: 1;
 }
 
-a{
-    text-decoration: none;
-    color: #575757;
-    font-weight: 500;
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
-.nav-button{
-    background-color: #E8BA2E;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    color: #000102;
-    cursor: pointer;
-    font-weight: 600;
+a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 500;
 }
 
-.nav-button span{
-    margin-left: 8px;
+.nav-button {
+  background-color: #e8ba2e;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: #000102;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-
-header{
-    background-image: url("./images/Background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    height: 800px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: center;
-
-    margin: 80px 10px 10px;
+.nav-button span {
+  margin-left: 8px;
 }
 
-header div{
-    padding-left: 40px;
-    color: white;
+header {
+  background-image: url("./images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 800px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  margin: 80px 10px 10px;
 }
 
-header h1{
-    font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 20px;
+header div {
+  padding-left: 40px;
+  color: white;
 }
 
-header p{
-    font-size: 18px;
-    line-height: 1.7;
-    margin-bottom: 30px;
-}
-main{
-    display: flex;
-    justify-content: space-between;
-    background-color: #F4C430;
-    text-align: center;
-    max-width: 98%;
-    margin:0 auto;
-    height: 200px;
-    align-items: center;
-    padding: 15px 50px;
-}
-.stadium{
-    display: flex;
-    margin: 0 100px 40px;
-    gap: 50px;
-}
-.stadium-text{
-    text-align: center;
-    margin: 50px 0;
-    gap: 50px;
-}           
-.stadium img{
-    flex: 1;
-}
-.features{
-padding: 15px 15px;
-color: #575757;
-}
-.venue{
-    display: flex;
-    gap: 20px;
-}
-.button-s{
-    display: flex;
-    
-    justify-content: center;
-}
-.time{
-    border: 1px solid #505F76;
-    margin: 100px 100px;
-    border-radius: 12px;
-    height: 500px;
-}
-.match{
-    margin:30px 20px 0 10px ;
-    padding-bottom: 20px;
-}
-.match div{
-    padding: 10px 15px;
-}
-.event{
-    border: 1px solid black;
-    margin: 10px 20px;
-    color: #A73131;
-}
-.mexico{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    text-align: center;
-    margin: 0px 15px;
-}
-.mexico div{
-    border:1px solid black;
-    padding: 10px 15px;
-    margin: 0px 0;
-}
-.brazil{
-    background-color: #F8D6D6;
-     display: flex;
-     flex-direction: column;
-    text-align: center;
-    background-color:#F8D6D6;
-    align-items: center;
-    max-width: 98%;
-    margin:0 auto;
-    height: 400px;
-    justify-content: center;
-    padding: 15px 50px;
-    color: #EE1212;
-    border-radius: 12px;
-}
-footer{
-    width: 100%;
-    background-color: #000102;
-    margin-top: 80px;
-    padding: 40px 50px;
-    box-sizing: border-box;
+header h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-footer img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+header p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4c430;
+  text-align: center;
+  max-width: 98%;
+  margin: 0 auto;
+  height: 200px;
+  align-items: center;
+  padding: 15px 50px;
+}
+.stadium {
+  display: flex;
+  margin: 0 100px 40px;
+  gap: 50px;
+}
+.stadium-text {
+  text-align: center;
+  margin: 50px 0;
+  gap: 50px;
+}
+.stadium img {
+  flex: 1;
+}
+.features {
+  padding: 15px 15px;
+  color: #575757;
+}
+.venue {
+  display: flex;
+  gap: 20px;
+}
+.button-s {
+  display: flex;
+
+  justify-content: center;
+}
+.time {
+  border: 1px solid #505f76;
+  margin: 100px 100px;
+  border-radius: 12px;
+  height: 500px;
+}
+.match {
+  margin: 30px 20px 0 10px;
+  padding-bottom: 20px;
+}
+.match div {
+  padding: 10px 15px;
+}
+.event {
+  border: 1px solid black;
+  margin: 10px 20px;
+  color: #a73131;
+}
+.mexico {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 0px 15px;
+}
+.mexico div {
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin: 0px 0;
+}
+.brazil {
+  background-color: #f8d6d6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f8d6d6;
+  align-items: center;
+  max-width: 98%;
+  margin: 0 auto;
+  height: 400px;
+  justify-content: center;
+  padding: 15px 50px;
+  color: #ee1212;
+  border-radius: 12px;
+}
+footer {
+  width: 100%;
+  background-color: #000102;
+  margin-top: 80px;
+  padding: 40px 50px;
+  box-sizing: border-box;
 }
 
-footer hr{
-    margin: 30px 0;
-    border: 1px solid #333;
+footer img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-footer section{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer hr {
+  margin: 30px 0;
+  border: 1px solid #333;
 }
 
-footer section div{
-    margin: 20px 0;
+footer section {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section div {
+  margin: 20px 0;
 }
