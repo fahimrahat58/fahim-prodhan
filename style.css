@@ -119,3 +119,46 @@ color: #575757;
     
     justify-content: center;
 }
+.time{
+    border: 1px solid #505F76;
+    margin: 100px 100px;
+    border-radius: 12px;
+    height: 490px;
+}
+.match{
+    margin:30px 20px 0 10px ;
+    padding-bottom: 20px;
+}
+.match div{
+    padding: 10px 15px;
+}
+.table{
+    display: flex;
+    text-align: center;
+    
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    margin:0px 15px;
+    padding: 10px 10px;
+    background-color: #A73131;
+}
+.event{
+    border: 1px solid black;
+    margin: 10px 20px;
+    color: #A73131;
+}
+.mexico{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin: 0px 15px;
+}
+.mexico div{
+    border:1px solid black;
+    padding: 10px 10px;
+    margin: 0px 0;
+}
+
