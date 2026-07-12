@@ -54,7 +54,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 
-  height: 800px;
+  height: 90vh;
   border-radius: 10px;
 
   display: flex;
@@ -145,20 +145,41 @@ main {
   padding: 10px 15px;
   margin: 0px 0;
 }
-.brazil {
-  background-color: #f8d6d6;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #f8d6d6;
-  align-items: center;
-  max-width: 98%;
-  margin: 0 auto;
-  height: 400px;
-  justify-content: center;
-  padding: 15px 50px;
-  color: #ee1212;
-  border-radius: 12px;
+.faq{
+    background: linear-gradient(135deg, #0b0b0b 0%, #1a1a1a 60%, #2b2205 100%);
+    max-width: 800px;
+    width: 100%;
+    min-height: 500px;
+    margin: 80px auto;     
+    padding: 60px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.faq-div{
+  margin: 30px 0;
+}
+.faq-div:hover{
+    transform: translateY(-5px);
+    border-color:#F4C430;
+    box-shadow:0 15px 35px rgba(244,196,48,.18);
+    transition:.3s;
+}
+.faq h1{
+  color: white;
+  margin: 20px 0;
+  font-style: italic;
+}
+.faq p{
+  color: white;
+}
+.faq summary{
+  color: white;
+  padding: 20px 0;
+  list-style: none;
+  border: 1px solid rgba(244, 196, 48, 0.25);
+  border-radius: 5px;
 }
 footer {
   width: 100%;
